@@ -1,0 +1,219 @@
+/* Aplicar fonte em todo o body */
+body {
+    font-family: 'Lato', sans-serif;
+    color: #f1f1f1;
+}
+
+/* Estilos do Botão Flutuante do WhatsApp */
+.btnWhatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+      
+.btnWhatsapp img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+       
+.btnWhatsapp img:hover {
+    transform: scale(1.2);
+}
+
+/* Estilos para o header */
+header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    background-color: rgb(0, 105, 105);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Um valor alto para garantir que o cabeçalho fique acima de outros elementos */
+    align-items: outset;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-bottom: 1px ridge rgb(255, 255, 255, 0.2);
+}
+
+#containerLogo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 50px;
+    align-items: center;
+    margin-left: 4px;
+    h1 {
+        font-size: 16px;
+        margin-top: 8px;
+        a {
+            text-decoration: none;
+            color: #f1f1f1;
+        }
+    }
+    h2 {
+        font-size: 12px;
+        margin: 0;
+    }
+}
+
+/* Estilos específicos da navbar */
+nav {
+    display: table;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-right: 40px;
+    height: 80px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    height: 80px;
+}
+
+nav ul li {
+    margin: 0px 6px;
+    padding: 0px 6px;
+    height: auto;
+}
+
+nav ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: 700;
+    transform: scale(1.1);
+    padding: 17px 10px;
+    background-color: rgb(2, 139, 139);
+}
+
+/* Body > Main */
+.sImpar {
+    color: #1a1a1a;
+    background-color: #f1f1f1;
+    padding: 40px;
+}
+
+.sPar {
+    color: #f1f1f1;
+    background-color: rgb(0, 105, 105);
+    padding: 40px;
+}
+
+.sImpar, .sPar {
+    text-align: center;
+}
+
+.sImpar h3, .sPar h3 {
+    margin-top: 0;
+}
+
+#s1 ul, #s1 p {
+    max-width: 1000px;
+    margin: 16px auto;
+}
+
+#s1 ul {
+    list-style: none;
+}
+
+#containerImagens {
+    display: flex;
+    justify-content: center;
+}
+
+#containerImagens picture img {
+    margin-right: 14px;
+}
+
+#s3 table {
+    text-align: center;
+    border: dotted 3px rgb(0, 105, 105);
+    border-radius: 18px;
+    caption {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 6px;
+    }
+    th, td {
+        padding: 0; /* Remover padding das células */
+        border: 1px solid grey; /* Adicionar borda para visualização */
+    }
+    th {
+        color: #f1f1f1;
+        background-color: rgb(0, 105, 105);
+    }
+    th:hover, td:hover {
+        color: #f1f1f1;
+        background-color: rgb(2, 139, 139);
+    }
+}
+
+/* Formulário */
+.formTxt {
+    width: 350px;
+} 
+
+.formRadio {
+    cursor: pointer;
+}
+
+#s4 form {
+    display: flex;
+    justify-content: space-between;
+    max-width: 820px;
+    margin: auto;
+}
+
+#s4 form div {
+    margin: auto;
+}
+
+#s4 form div input, #s4 form div textarea {
+    margin-top: 4px;
+}
+
+#s4 form button {
+    cursor: pointer;
+    width: 140px
+}
+
+/* Venha até nós */
+#loc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 700px;
+    p {
+        margin: 8px auto;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+}
+
+#endereco {
+    padding: 16px;
+    border: dashed 2px rgb(0, 105, 105);
+    border-radius: 16px;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: grey;
+    color:#1a1a1a;
+    text-align: center;
+    p {
+        margin: 6px;
+    }
+}

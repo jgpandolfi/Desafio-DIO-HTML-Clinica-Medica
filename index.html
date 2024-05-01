@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clínica médica ortopedia - Página protótipo criada para o desafio da trilha de HTML da DIO.me">
+    <meta name="keywords" content="clínica,clinica,médico,medico,clínica médica,ortopedista,ortopedia,DIO.me,HTML">
+    <meta name="author" content="Jota / José Guilherme Pandolfi">
+    <meta name="robots" content="index, follow">
+    <title>Clínica Médica Ortopedia - DIO Desafio</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href=".\assets\favicon.ico" type="image/x-icon">
+
+    <!-- Carregar a fonte Lato do Google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Metatags de Localização -->
+    <meta name="geo.region" content="BR-SP">
+    <meta name="geo.placename" content="Taquaritinga">
+    <meta name="geo.position" content="-21.4052612;-48.5101113">
+    <meta name="ICBM" content="-21.4052612, -48.5101113">
+
+    <!-- Metatags de Redes Sociais -->
+    <meta property="og:title" content="Clínica Médica Ortopedia - DIO Desafio">
+    <meta property="og:description" content="Clínica médica ortopedia - Página protótipo criada para o desafio da trilha de HTML da DIO.me">
+    <meta property="og:url" content="https://www.agenciam2a.com.br">
+    <meta property="og:image" content="https://www.agenciam2a.com.br/assets/logoFundoBranco.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+</head>
+<body>
+    <!-- Botão Flutuante do WhatsApp -->
+    <div class="btnWhatsapp">
+        <a href='https://wa.me/' target="_blank">
+            <picture>
+                <source srcset="./assets/WhatsApp.webp" type="image/webp">
+                <img src="./assets/WhatsApp.jpg" alt="Logo WhatsApp Messenger">
+            </picture>
+        </a>
+    </div>
+    <div>
+        <!-- Header -->
+        <header>
+            <div id="containerLogo">
+                <h1><a href="javascript:void(0)" onclick="location.reload()">Clínica Médica São Judas - Ortopedia</a></h1>
+                <h2>Clínica especializada em ortopedia-traumatologia em Taquaritinga/SP</h2>
+            </div>
+            <div id="containerNav">
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Sobre nós</a></li>
+                        <li><a href="">Localização</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main  -->
+        <main>
+            <section class="sImpar" id="s1">
+                <h3>Conheça nossos especialistas:</h3>
+                <p>Na vanguarda da excelência médica, nossa clínica orgulha-se de apresentar uma equipe de renomados ortopedistas e traumatologistas dedicados ao seu bem-estar. Conheça nossos especialistas:</p>
+                <ul>
+                    <li><p><strong>Dr. Marcelo Silva, MD, PhD:</strong> Com mais de duas décadas de experiência, o Dr. Silva é um líder reconhecido na área de cirurgia ortopédica. Graduado pela Universidade Federal de São Paulo e com doutorado em Ortopedia pela Universidade de Harvard, ele é especializado em <strong>cirurgias reconstrutivas e artroscopia</strong>.</p></li>
+                    <li><p><strong>Dra. Ana Oliveira, MD, MSc:</strong> A Dra. Oliveira é uma ortopedista amplamente respeitada, com uma carreira marcada por contribuições significativas para a pesquisa e prática clínica. Graduada pela Universidade de São Paulo, ela obteve seu <strong>mestrado em Traumatologia pela Universidade de Oxford</strong>. Sua experiência abrange desde lesões esportivas até tratamentos avançados de osteoartrite.</p></li>
+                    <li><p><strong>Dr. Rafael Almeida, MD:</strong> O Dr. Almeida é um ortopedista altamente qualificado, conhecido por sua abordagem compassiva e <strong>resultados excepcionais</strong>. Graduado pela Universidade Estadual de Campinas, ele completou sua residência em Ortopedia no Hospital das Clínicas de Porto Alegre. Sua experiência inclui cirurgias de coluna, trauma ortopédico e medicina esportiva.</p></li>
+                </ul>
+            </section>
+            <section class="sPar" id="s2">
+                <h3>Conheça nossa clínica:</h3>
+                <div id="containerImagens">
+                    <picture>
+                        <source srcset="./assets/fotosClinica/foto1.webp" type="image/webp">
+                        <img src="./assets/fotosClinica/foto1.jpg" width="330" title="Sala de espera" alt="Fotografia da sala de espera da clínica.">
+                    </picture>
+                    <picture>
+                        <source srcset="./assets/fotosClinica/foto2.webp" type="image/webp">
+                        <img src="./assets/fotosClinica/foto2.jpg" width="330" title="Consultório geral" alt="Instalações do consultório geral.">
+                    </picture>
+                    <picture>
+                        <source srcset="./assets/fotosClinica/foto3.webp" type="image/webp">
+                        <img src="./assets/fotosClinica/foto3.jpg" width="330" title="Consultório infantil" alt="Instalações do consultório infantil.">
+                    </picture>
+                </div>
+            </section>
+            <section class="sImpar" id="s3">
+                <h3>Horários de atendimento:</h3>
+                <table align="center" width="1000" cellspacing="0">
+                    <caption>Atendentes por horário na recepção:</caption>
+                    <thead>
+                        <tr>
+                            <th>Período</th>
+                            <th>Domingo</th>
+                            <th>Segunda-feira</th>
+                            <th>Terça-feira</th>
+                            <th>Quarta-feira</th>
+                            <th>Quinta-feira</th>
+                            <th>Sexta-feira</th>
+                            <th>Sábado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Manhã</td>
+                            <td>Fabiana</td>
+                            <td>Fabiana</td>
+                            <td>Fabiana</td>
+                            <td>Joana</td>
+                            <td>Joana</td>
+                            <td>Érica</td>
+                            <td>Érica</td>
+                        </tr>
+                        <tr>
+                            <td>Tarde</td>
+                            <td>Fabiana</td>
+                            <td>Joana</td>
+                            <td>Joana</td>
+                            <td>Érica</td>
+                            <td>Érica</td>
+                            <td>Fabiana</td>
+                            <td>Fabiana</td>
+                        </tr>
+                        <tr>
+                            <td>Noite</td>
+                            <td>Fabiana</td>
+                            <td>Fabiana</td>
+                            <td>Fabiana</td>
+                            <td>Érica</td>
+                            <td>Érica</td>
+                            <td>Joana</td>
+                            <td>Joana</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="sPar" id="s4">
+                <!-- Fale conosco -->
+                <h3>Envie sua mensagem:</h3>
+                <form action="/submit_form.php" method="POST">
+                    <div>
+                        <label for="nome">Nome:*</label><br>
+                        <input type="text" id="nome" class="formTxt" name="nome" required><br><br>
+
+                        <label for="telefone">Telefone:*</label><br>
+                        <input type="tel" id="telefone" class="formTxt" name="telefone" required><br><br>
+
+                        <label for="email">E-mail:*</label><br>
+                        <input type="email" id="email" class="formTxt" name="email" required><br><br>
+
+                        <label for="idade">Idade:*</label><br>
+                        <input type="number" id="idade" class="formTxt" name="idade" required><br><br>
+                    </div>
+                    <div>
+                        <label for="genero">Gênero:*</label><br>
+                        <input type="radio" id="masculino" class="formRadio" name="genero" value="masculino" required>
+                        <label for="masculino" class="formRadio">Masculino</label>
+                        <input type="radio" id="feminino" class="formRadio" name="genero" value="feminino">
+                        <label for="feminino" class="formRadio">Feminino</label>
+                        <input type="radio" id="outro" class="formRadio" name="genero" value="outro">
+                        <label for="outro" class="formRadio" >Outro</label><br><br>
+
+                        <label for="mensagem">Mensagem:</label><br>
+                        <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+                        
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </section>
+            <section class="sImpar" id="s5">
+                <!-- Mapa Encontre-nos -->
+                <h3>Venha até nós:</h3>
+                <div id="loc">
+                    <div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59434.218555439256!2d-48.53718630366522!3d-21.40412785454432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9397251c5addf%3A0x42dfab50d8b2929e!2sTaquaritinga%2C%20SP%2C%2015900-000%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1714536564996!5m2!1spt-BR!2sus"
+                            width="400"
+                            height="400"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <div id="endereco">
+                        <p>Rua João da Silva Neto, 659</p>
+                        <p>Laranjeiras III</p>
+                        <p>Taquaritinga - SP</p>
+                        <p>15900-000</p>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+        <!-- Footer  -->
+        <footer>
+            <p>Website protótipo para desafio da DIO.me</p>
+            <p>Todo o conteúdo inserido nessa página web é fictício e foi utilizado apenas para finalidades de estudo.</p>
+            <p>Desenvolvido por <a href="https://hub.agenciam2a.com.br/?utm_source=ProjetoClinicaMedicaDesafioDio" target="_blank">Jota / José Guilherme Pandolfi</a></p>
+        </footer>
+    </div>
+
+    <!-- Scripts JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>
