@@ -111,10 +111,16 @@ nav ul li a:hover {
 
 .sImpar, .sPar {
     text-align: center;
+    background-size: cover;
+    background-position: center;
 }
 
 .sImpar h3, .sPar h3 {
     margin-top: 0;
+}
+
+#s1 {
+    background-image: url(./assets/backgrounds/bg1.jpg);
 }
 
 #s1 ul, #s1 p {
@@ -133,6 +139,10 @@ nav ul li a:hover {
 
 #containerImagens picture img {
     margin-right: 14px;
+}
+
+#s3 {
+    background-image: url(./assets/backgrounds/bg3.jpg);
 }
 
 #s3 table {
@@ -188,6 +198,10 @@ nav ul li a:hover {
 }
 
 /* Venha até nós */
+#s5 {
+    background-image: url(./assets/backgrounds/bg5.jpg);
+}
+
 #loc {
     display: flex;
     justify-content: space-between;
@@ -209,8 +223,9 @@ nav ul li a:hover {
 
 /* Estilos do rodapé */
 footer {
-    background-color: grey;
-    color:#1a1a1a;
+    padding: 10px;
+    background-color: rgb(109, 109, 109);
+    color:#f1f1f1;
     text-align: center;
     p {
         margin: 6px;
